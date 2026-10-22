@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Bazel output symlinks
+bazel-*
+
 # Compiled Object files
 *.slo
 *.lo
@@ -62,6 +65,9 @@ vcpkg_installed/
 
 # debug information files
 *.dwo
+
+# VSCode folder
+.vscode/
 
 # test output & cache
 Testing/
